@@ -1,6 +1,6 @@
+SRC = 13.cpp
 CC = g++ 
 TARGET = test
-SRC = 5.cpp
 OBJ = $(SRC:.cpp=.o)
 $(TARGET):$(OBJ)
 	$(CC) -o  $@ $^  -g 
